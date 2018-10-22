@@ -1,11 +1,11 @@
+
+
+
 /*=================================*/
-
-
 /*  Common Styles 
 /*=================================*/
 
-body,
-html {
+body, html {
     font-size: 100%;
     padding: 0;
     margin: 0;
@@ -28,19 +28,17 @@ body {
     overflow-x: hidden !important;
 }
 
-img {
+img{
     display: block;
     max-width: 100%;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     margin: 0;
     padding: 0;
 }
 
-h1 {
+h1{
     font-size: 2em;
 }
 
@@ -61,7 +59,10 @@ p {
 
 h3.subtitle {
     position: relative;
+    
 }
+
+
 
 g.Web {
     opacity: 1;
@@ -71,7 +72,7 @@ g.Header {
     stroke-width: 2px;
 }
 
-.padding-bottom-90>.content {
+.padding-bottom-90 > .content {
     padding-bottom: 60px;
 }
 
@@ -81,10 +82,10 @@ section {
     max-width: 850px;
 }
 
-section>.content {
+section > .content {
     margin: 40px;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 section .container {
@@ -104,7 +105,7 @@ section .container {
     line-height: 1;
 }
 
-.sec_title h2 {
+.sec_title h2{
     display: inline-block;
     font-size: 43px;
     font-weight: 700;
@@ -147,15 +148,12 @@ section .container {
     z-index: 10;
 }
 
-a:hover,
-a:focus {
+a:hover, a:focus {
     text-decoration: none;
     outline: none;
 }
 
-
 /*Main Color*/
-
 .home_type .side #typed,
 .menu .social-icons a:hover,
 .menu .active_item span,
@@ -163,16 +161,13 @@ a:focus {
 .menu .menu_list li a span:hover,
 .testimonials .arrows span:hover,
 .fun-facts span,
-.portfolio_sec .item .info p,
+.portfolio_sec  .item .info p,
 .zoom-anim-dialog .project_info span,
 .contact .info span.icon {
     color: #47A3DA;
 }
 
-.home_type .more_info a:hover,
-.button .icon-bar,
-.button::after,
-.button::before,
+.home_type .more_info a:hover,.button .icon-bar,.button::after, .button::before,
 .skills .skill div span,
 .education .date:after,
 a.rslides_nav.rslides1_nav:hover,
@@ -217,8 +212,7 @@ g.Header {
     transform-style: preserve-3d;
 }
 
-.pt-page-current,
-.no-js .pt-page {
+.pt-page-current, .no-js .pt-page {
     height: auto;
     visibility: visible;
     z-index: 1;
@@ -233,81 +227,63 @@ g.Header {
     perspective: 1200px;
 }
 
-
 /*End Common Styles*/
 
 
+
 /*=================================*/
-
-
 /*  Preloader 
 /*=================================*/
 
-.page-loader {
+.page-loader{
     position: fixed;
     z-index: 100000;
     top: -10px;
     left: -14px;
     width: 108%;
     height: 110%;
-    background: #000;
+    background: #000;  
     filter: blur(10px) contrast(20);
 }
 
-.blob-1,
-.blob-2 {
-    width: 70px;
-    height: 70px;
-    position: absolute;
-    background: #fff;
-    border-radius: 50%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+
+
+
+
+.blob-1,.blob-2{
+    width:70px;
+    height:70px;
+    position:absolute;
+    background:#fff;
+    border-radius:50%;
+    top:50%;left:50%;
+    transform:translate(-50%,-50%);
 }
-
-.blob-1 {
-    left: 20%;
-    animation: osc-l 2.5s ease infinite;
+.blob-1{
+    left:20%;
+    animation:osc-l 2.5s ease infinite;
 }
-
-.blob-2 {
-    left: 80%;
-    animation: osc-r 2.5s ease infinite;
-    background: #0ff;
+.blob-2{
+    left:80%;
+    animation:osc-r 2.5s ease infinite;
+    background:#0ff;
 }
-
-@keyframes osc-l {
-    0% {
-        left: 20%;
-    }
-    50% {
-        left: 50%;
-    }
-    100% {
-        left: 20%;
-    }
+@keyframes osc-l{
+    0%{left:20%;}
+    50%{left:50%;}
+    100%{left:20%;}
 }
-
-@keyframes osc-r {
-    0% {
-        left: 80%;
-    }
-    50% {
-        left: 50%;
-    }
-    100% {
-        left: 80%;
-    }
+@keyframes osc-r{
+    0%{left:80%;}
+    50%{left:50%;}
+    100%{left:80%;}
 }
-
-
 /*End Preloader*/
 
 
+
 /*=================================*/
-
-
 /*  03.Home
 /*=================================*/
 
@@ -395,13 +371,11 @@ g.Header {
     background: rgba(0, 0, 0, 0.7);
 }
 
-
 /*End Home Type*/
 
 
+
 /*=================================*/
-
-
 /*  Menu
 /*=================================*/
 
@@ -474,7 +448,7 @@ g.Header {
 }
 
 .profile img {
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.34), -1px 1px 1px rgba(0, 0, 0, 0.34);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.34),-1px 1px 1px rgba(0, 0, 0, 0.34);
 }
 
 .intro-content h1 {
@@ -482,7 +456,7 @@ g.Header {
     margin-bottom: 20px;
 }
 
-.intro-content h1>span:first-child {
+.intro-content h1 > span:first-child {
     color: #151515;
     font-weight: 700;
     font-size: 20px;
@@ -517,13 +491,11 @@ g.Header {
     margin-left: 0;
 }
 
-
 /*End Menu*/
 
 
+
 /*=================================*/
-
-
 /*  About Section 
 /*=================================*/
 
@@ -543,19 +515,20 @@ g.Header {
     text-transform: uppercase;
 }
 
-#whoimi {
-    font-family: 'Luckiest Guy', cursive;
-    font-size: 17px;
-    letter-spacing: 2px;
+
+
+#whoimi{
+font-family: 'Luckiest Guy', cursive;
+font-size: 17px;
+letter-spacing: 2px;
 }
 
 
 /*End About Section*/
 
 
+
 /*=================================*/
-
-
 /*  education Section 
 /*=================================*/
 
@@ -565,6 +538,7 @@ g.Header {
     text-transform: uppercase;
     font-family: 'Luckiest Guy', cursive;
     letter-spacing: 2px;
+    
     color: #252525;
     margin-bottom: 45px;
 }
@@ -588,8 +562,7 @@ g.Header {
     line-height: 1;
 }
 
-.education .date:after,
-.education .date:before {
+.education .date:after, .education .date:before {
     content: "";
     position: absolute;
     top: 11px;
@@ -623,13 +596,11 @@ g.Header {
     font-size: 15px;
 }
 
-
 /*End education Section*/
 
 
+
 /*=================================*/
-
-
 /* Skills Section 
 /*=================================*/
 
@@ -655,15 +626,16 @@ g.Header {
     border-style: solid;
 }
 
+
 .skill h3 {
     color: #000;
     font-size: 18px;
     font-weight: 500;
     margin-top: 10px;
     margin-bottom: 36px;
-    letter-spacing: 1px;
-    font-family: 'Luckiest Guy', cursive;
-    letter-spacing: 2px;
+    
+ font-family: 'Luckiest Guy', cursive;
+ letter-spacing: 2px;
 }
 
 .skills .skill {
@@ -686,7 +658,7 @@ g.Header {
     left: 0;
 }
 
-.skill>span {
+.skill > span {
     color: rgba(0, 0, 0, 0.48);
     display: block;
     clear: both;
@@ -709,27 +681,23 @@ g.Header {
 .skills .skill .false {
     opacity: 0.19;
 }
-
 @-webkit-keyframes blinker {
-    0% {
-        opacity: 0.8;
-        transform: scale(1);
-    }
-    100% {
-        opacity: 1.0;
-        transform: scale(1.05);
-    }
+  0% {opacity: 0.8;
+    transform: scale(1);
+    
+  }
+  100% {opacity: 1.0;
+    
+    transform: scale(1.05);
+    
+  }
 }
-
-.true,
-.education .date:after,
-.education .date:before,
-.social-icons a:hover,
-.more_info a:hover {
+.true,.education .date:after, .education .date:before, .social-icons a:hover,.more_info a:hover {
+    
     -webkit-animation-name: blinker;
     -webkit-animation-duration: 0.4s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:ease-in-out;
     -webkit-animation-direction: alternate;
 }
 
@@ -737,19 +705,18 @@ g.Header {
 /*End Services Section*/
 
 
+
 /*=================================*/
-
-
 /*  08.Prtfolio Section
 /*=================================*/
 
 .portfolio_sec .row {
     margin-right: -10px;
     margin-left: -10px;
+    
 }
 
-.portfolio_sec .ul-filter,
-.select {
+.portfolio_sec .ul-filter,.select {
     margin-bottom: 30px;
 }
 
@@ -790,76 +757,63 @@ li.active_filter:after {
 
 
 /* Reset Select */
-
 select {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -ms-appearance: none;
-    appearance: none;
-    outline: 0;
-    box-shadow: none;
-    border: 0 !important;
-    background: #2c3e50;
-    background-image: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background: #2c3e50;
+  background-image: none;
 }
-
-
 /* Custom Select */
-
 .select {
-    position: relative;
-    display: block;
-    width: 18em;
-    height: 3em;
-    line-height: 3;
-    background: #2c3e50;
-    overflow: hidden;
-    border-radius: .25em;
+  position: relative;
+  display: block;
+  width: 18em;
+  height: 3em;
+  line-height: 3;
+  background: #2c3e50;
+  overflow: hidden;
+  border-radius: .25em;
 }
-
 select {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0 0 0 .5em;
-    color: #fff;
-    cursor: pointer;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0 0 0 .5em;
+  color: #fff;
+  cursor: pointer;
 }
-
 select::-ms-expand {
-    display: none;
+  display: none;
 }
-
-
 /* Arrow */
-
 .select::after {
-    content: '\25BC';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    padding: 0 1em;
-    background: #34495e;
-    pointer-events: none;
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 1em;
+  background: #34495e;
+  pointer-events: none;
 }
-
-
 /* Transition */
-
-#select .filter-button:hover {
-    background-color: #47a3da !important;
+#select .filter-button:hover{
+   background-color: #47a3da !important;
 }
-
 .select:hover::after {
-    color: #47a3da;
+  color: #47a3da;
+}
+.select::after {
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
 }
 
-.select::after {
-    -webkit-transition: .25s all ease;
-    -o-transition: .25s all ease;
-    transition: .25s all ease;
-}
 
 .portfolio_sec .item {
     padding: 10px;
@@ -889,7 +843,7 @@ select::-ms-expand {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0,0,0,0.7);
     opacity: 0;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
@@ -902,11 +856,12 @@ select::-ms-expand {
 
 .portfolio_sec .item:hover .info h3,
 .portfolio_sec .item:hover .info p {
-    transform: translateY(0);
+    
     -webkit-transform: translateY(0);
+    transform: translateY(0);
 }
 
-.portfolio_sec .item .info h3 {
+.portfolio_sec  .item .info h3 {
     color: #fff;
     font-size: 20px;
     -webkit-transform: translateY(10px);
@@ -916,7 +871,7 @@ select::-ms-expand {
     margin-top: 5px;
 }
 
-.portfolio_sec .item .info p {
+.portfolio_sec  .item .info p {
     font-weight: bold;
     margin-bottom: 0;
     -webkit-transform: translateY(15px);
@@ -928,66 +883,87 @@ select::-ms-expand {
     letter-spacing: 0.3px;
 }
 
+
+
+
+
 #projects .flipper {
-    display: inline-block;
-    -webkit-transform: scale(0.90);
-    -moz-transform: scale(0.90);
-    -o-transform: scale(0.90);
-    -ms-transform: scale(0.90);
-    transform: scale(0.90);
-    box-shadow: 20px 38px 34px -26px hsla(0, 0%, 0%, .2);
+  
+  display: inline-block;
+
+  -webkit-transform: scale(0.90);
+  -moz-transform: scale(0.90);
+  -o-transform: scale(0.90);
+  -ms-transform: scale(0.90);
+  transform: scale(0.90);
+
+  box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
     font-family: 'Patrick Hand SC', cursive;
     border: solid 7px #41403E;
-    -webkit-transition: all ease-in-out;
-    -moz-transition: all ease-in-out;
-    -o-transition: all ease-in-out;
-    -ms-transition: all ease-in-out;
-    transition: all ease-in-out;
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    position: relative;
-    padding: 10px;
-    margin-bottom: 20px;
-    filter: gray;
+
+  -webkit-transition: all ease-in-out;
+  -moz-transition: all ease-in-out;
+  -o-transition: all ease-in-out;
+  -ms-transition: all ease-in-out;
+  transition: all ease-in-out;
+
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  position: relative;
+  padding: 10px;
+      margin-bottom: 20px;
+      filter: gray;
     -webkit-filter: grayscale(1);
 }
-
-.flipper img {
-    width: 100%;
+.flipper img{
+        width: 100%;
     height: 260px;
 }
 
 #projects .flipper:hover {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -o-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    box-shadow: 2px 8px 4px -6px hsla(0, 0%, 0%, .3);
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    filter: gray;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+
+  
+         box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.3);
+    
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  filter: gray;
     -webkit-filter: grayscale(0);
 }
 
+
+
+
+
+
+
 .tooltiptext {
-    text-align: center;
-    width: 100%;
-    white-space: pre-line;
-    display: inline-block;
-    line-height: 30px;
-    font-size: 15px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    text-decoration: none;
-    transition: all .15s ease-in-out;
-    left: 50%;
-    opacity: 0;
-    transition: 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+        text-align: center;
+        width: 100%;
+        white-space: pre-line;
+        display: inline-block;
+        line-height: 30px;
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        
+        text-decoration: none;
+        
+        
+        left: 50%;
+    
+        opacity: 0;
+        transition: 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+        
 }
 
 .tooltiptext::after {
@@ -1010,12 +986,16 @@ select::-ms-expand {
 }
 
 
+
+
+
+
 /*End Prtfolio Section*/
 
 
+
+
 /*=================================*/
-
-
 /*  10.Contact Section 
 /*=================================*/
 
@@ -1126,7 +1106,7 @@ select::-ms-expand {
 }
 
 .msg_success,
-.msg_error {
+.msg_error{
     display: none;
     font-size: 12px;
     padding-top: 15px;
@@ -1140,8 +1120,8 @@ select::-ms-expand {
 }
 
 .msg_success p {
-    color: #1FB4DA;
+  color: #1FB4DA;
 }
 
-
 /*End Contact Section*/
+
